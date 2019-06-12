@@ -19,10 +19,10 @@ print map(lambda x: max(x),items)
 #4
 
 print "\nCuarto:"
-print map(lambda k: map(lambda k: k[1],filter(lambda o: o[0]==True,zip(map(lambda z: (z==[]),map(lambda x: filter(lambda x: x%2!=0,map(lambda x: int(x),(list(filter(lambda x: x!="[" or x!="]",str(x)))))),k)),k))),items)
-z =map(lambda b: b,filter(lambda i: i!=[],map(lambda k: map(lambda k: k[1],filter(lambda o: o[0]==True,zip(map(lambda z: (z==[]),map(lambda x: filter(lambda x: x%2!=0,map(lambda x: int(x),(list(filter(lambda x: x!="[" or x!="]",str(x)))))),k)),k))),items)))
-print z
-
+#print map(lambda k: map(lambda k: k[1],filter(lambda o: o[0]==True,zip(map(lambda z: (z==[]),map(lambda x: filter(lambda x: x%2!=0,map(lambda x: int(x),(list(filter(lambda x: x!="[" or x!="]",str(x)))))),k)),k))),items)
+#z =map(lambda b: b,filter(lambda i: i!=[],map(lambda k: map(lambda k: k[1],filter(lambda o: o[0]==True,zip(map(lambda z: (z==[]),map(lambda x: filter(lambda x: x%2!=0,map(lambda x: int(x),(list(filter(lambda x: x!="[" or x!="]",str(x)))))),k)),k))),items)))
+#print z
+print "No"
 #print map(lambda x: min(x),z)
 
 #5
